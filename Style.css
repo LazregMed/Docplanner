@@ -1,0 +1,109 @@
+*{
+    margin: 0px 20px;
+    padding:   0;
+    /*border: #b37400 solid 1px;*/
+}
+
+a{
+text-decoration:none;
+color:#747474;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo{
+    width: 200px; 
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header ul li{
+    padding: 20px;
+  
+}
+header ul li  :hover, .active{
+    
+    color: #00b39b;
+}
+.main, .h1{
+    font-size: 30px;
+    color: #00b39b;
+    text-align: center;
+   
+}
+.main, .img1{
+    text-align: center;
+
+}
+.p{
+    columns: ;
+    font-size: 16px;
+    color:#747474;
+    display:flex;
+    font-family: Roboto,Arial,sans-serif;
+    padding-top: 50px;
+    text-align:justify;
+    
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.col{
+    display:flex;
+    justify-content: space-around;
+    font-size: 16px;
+    box-sizing: inherit;
+    height: 300px;
+    font-family:sans-serif;
+    color: white;
+    
+    margin:50px;
+    padding:50px;
+    
+}
+.malades{
+    
+    
+    background-color: rgb(21, 221, 171);
+    border-radius: 10px;
+    text-align:center;
+    padding-top: 20px;
+}
+.medecins{
+    
+    
+    background-color: #3d83df;
+    border-radius: 10px;
+    text-align:center;
+    padding-top: 20px;
+    
+    
+}
+.cliniques{
+   
+    background-color:#1b2734;
+    border-radius: 10px;
+    text-align:center;
+    padding-top: 20px;
+}
+
+.col h1{
+
+    font-size: 1.25em;
+}
+.col h2{
+    font-size: 1.5em;
+    
+}
+div h2{
+    text-align: left;
+}
